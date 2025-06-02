@@ -7,6 +7,7 @@
 #### PhotoBoxKit is a lightweight, Swift-native library designed for seamless photo viewing experiences in SwiftUI. It enables developers to present images with customizable backgrounds, swipe gestures, and smooth transitions. To improve performance and memory efficiency, PhotoBoxKit leverages NSCache for smart image caching and reuse.
 
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange)
+![Static Badge](https://img.shields.io/badge/Version%20-%201.0.0-skyblue)
 ![iOS](https://img.shields.io/badge/iOS-16.0%2B-white)
 ![Framework](https://img.shields.io/badge/Framework-SwiftUI-skyblue)
 ![Xcode](https://img.shields.io/badge/Xcode-16.3-blue)
