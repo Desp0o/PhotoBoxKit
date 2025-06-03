@@ -16,14 +16,14 @@
  
 | Parameter         | Type                 | Description                                           | Default |
 |------------------|----------------------|-------------------------------------------------------|---------|
-| `activeIndex`       | `Binding<Int>`             | API endpoint URL.                                     | N/A     |
-| `isVisible`          | `Binding<Bool>`         | HTTP request method.                                  | N/A     |
-| `urls`            | `[String]`            | Request payload.                                      | N/A     |
-| `counter`         | `Bool`   | HTTP headers.                                         | true     |
-| `gallery` | `Bool`       | Request timeout duration.                             | true     |
-| `cornerRadius`        | `CGFloat`               | Enables caching for GET requests.                     | 0.0   |
-| `bgColor`     | `Color`       | Cache validity duration.                              | Color.black.opacity(0.9)   |
-| `counterColor`     | `Color`       | Cache validity duration.                              | Color.white   |
+| `activeIndex`       | `Binding<Int>`             | current active undex of image.                                     | N/A     |
+| `isVisible`          | `Binding<Bool>`         | show or hide photobox.                                  | N/A     |
+| `urls`            | `[String]`            | urls of images.                                      | N/A     |
+| `counter`         | `Bool`   | visible or not image counter.                                         | true     |
+| `gallery` | `Bool`       | visible or not bottom gallery.                             | true     |
+| `cornerRadius`        | `CGFloat`               | Corner radius of images.                     | 0.0   |
+| `bgColor`     | `Color`       | backgorund color.                              | Color.black.opacity(0.9)   |
+| `counterColor`     | `Color`       | color of image counter.                              | Color.white   |
 
 ## Simple Usage
 #### Just pass these three parameters for a basic setup:
